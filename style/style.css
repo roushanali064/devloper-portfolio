@@ -42,7 +42,7 @@ section {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
     align-items: center;
 }
 
@@ -102,7 +102,7 @@ nav li {
     text-align: center;
     background: #FFF8F3;
     border-radius: 10px;
-    padding: 13px 150px;
+    padding: 130px 150px;
 
 }
 
