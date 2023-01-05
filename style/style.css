@@ -21,6 +21,7 @@
     border: none;
     padding: 18px 35px;
 }
+
 .header {
     background: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
@@ -32,7 +33,8 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
-section{
+
+section {
     margin-top: 130px;
 }
 
@@ -141,6 +143,7 @@ nav li {
 .what-i-do {
     align-items: center;
 }
+
 .skill-container {
     display: flex;
     gap: 24px;
@@ -152,6 +155,7 @@ nav li {
     border-radius: 5px;
     padding: 30px;
 }
+
 .skill-title {
     font-weight: 700;
     font-size: 20px;
@@ -164,4 +168,45 @@ nav li {
     font-weight: 400;
     font-size: 16px;
     color: #757575;
+}
+
+/* resume section */
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.resume-item .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-item .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-item .description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.cv-btn{
+    text-align: center;
+    margin-top: 50px;
 }
