@@ -210,3 +210,32 @@ nav li {
     text-align: center;
     margin-top: 50px;
 }
+ /* contect section */
+.contect{
+    display: flex;
+    gap: 115px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contect .section-title{
+    text-align: left;
+}
+.contect-description{
+    margin-bottom: 30px;
+}
+.social-media{
+    display: flex;
+    gap: 25px;
+}
+.contect input[type="text"], input[type="email"],textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    border: 0;
+    padding-left: 30px;
+}
+input{
+    height: 64px;
+}
+textarea{
+    padding: 18px 30px;
+}
